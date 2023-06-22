@@ -9,7 +9,7 @@ import deleteIcon from "../../images/icon-delete.svg";
 
 export default function SinglePost() {
   const axiosInstance = axios.create({
-    baseURL: "https://caster-blog-app.onrender.com",
+    baseURL: "https://caster-blog-app.onrender.com/api/",
   });
   const location = useLocation();
   const path = location.pathname.split("/")[2];

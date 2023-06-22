@@ -5,7 +5,7 @@ import Topbar from "../../components/topbar/Topbar";
 
 export default function Register() {
   const axiosInstance = axios.create({
-    baseURL: "https://caster-blog-app.onrender.com",
+    baseURL: "https://caster-blog-app.onrender.com/api/",
   });
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
