@@ -8,7 +8,7 @@ import Topbar from "../../components/topbar/Topbar";
 
 export default function Home() {
   const axiosInstance = axios.create({
-    baseURL: "caster-blog-app.onrender.com/api/",
+    baseURL: "https://caster-blog-app.onrender.com",
   });
   const [posts, setPosts] = useState([]);
   const { search } = useLocation();

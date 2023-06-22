@@ -7,7 +7,7 @@ import iconAddImage from "../../images/icon-add-image.svg";
 
 export default function Write() {
   const axiosInstance = axios.create({
-    baseURL: "caster-blog-app.onrender.com/api/",
+    baseURL: "https://caster-blog-app.onrender.com",
   });
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");

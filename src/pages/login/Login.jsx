@@ -6,7 +6,7 @@ import Topbar from "../../components/topbar/Topbar";
 
 export default function Login() {
   const axiosInstance = axios.create({
-    baseURL: "caster-blog-app.onrender.com/api/",
+    baseURL: "https://caster-blog-app.onrender.com",
   });
   const userRef = useRef();
   const passwordRef = useRef();
