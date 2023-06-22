@@ -60,7 +60,7 @@ export default function SinglePost() {
       />
       <div className="singlePostWrapper">
         {post.photo && (
-          <img src={PF + post.photo} alt="" className="singlePostImg" />
+          <img src={post.photo} alt="" className="singlePostImg" />
         )}
         <div className="singlePostInfo">
           <span className="sinlgePostAuthor">

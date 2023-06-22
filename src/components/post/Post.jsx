@@ -6,7 +6,7 @@ export default function Post({ post }) {
   return (
     <div className={PostStyles.post}>
       <div className={PostStyles.postImg}>
-        {post.photo && <img className="postImg" src={PF + post.photo} alt="" />}
+        {post.photo && <img className="postImg" src={post.photo} alt="" />}
       </div>
       <div className={PostStyles.contentWrapper}>
         <div className={PostStyles.userWrapper}>
