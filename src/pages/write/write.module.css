@@ -1,0 +1,129 @@
+.write {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../images/write-mobile.png");
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  top: 0;
+  position: absolute;
+}
+
+.imgBg {
+  max-width: 700px;
+  display: flex;
+}
+
+.imgBg img {
+  display: flex;
+  max-width: 700px;
+  border: 4px solid white;
+  border-radius: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bdf1e4;
+  margin: 0 0 20px 0;
+  font-size: 32px;
+}
+
+.writeForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+}
+
+.container {
+  display: flex;
+  padding: 15px;
+  border: 4px solid white;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container img {
+  padding: 0 14px 0 0;
+  border-right: 4px solid white;
+}
+
+.container:nth-of-type(2) {
+}
+
+.container:nth-of-type(2) {
+  margin: -4px 0 0 0;
+}
+
+.container:nth-of-type(3) {
+  margin: -4px 0 0 0;
+
+  flex-direction: column;
+}
+
+.writeInput::placeholder,
+.writeText::placeholder {
+  color: lightgray;
+  font-size: 20px;
+}
+
+.writeInput,
+.writeText {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.writeInput:focus,
+.writeText:focus {
+  outline: none;
+  color: white;
+}
+
+.writeText {
+  width: 100%;
+  padding: -4px 0 0 0;
+}
+
+.writeInput:nth-of-type(2) {
+  padding: 0 0 0 20px;
+}
+
+.button {
+  background-color: transparent;
+  border: 4px solid white;
+  outline: none;
+  border-radius: 15px;
+  max-width: 130px;
+  font-size: 20px;
+  color: white;
+  margin: 15px auto 0;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media (min-width: 375px) {
+  .write {
+    background-image: url("../../images/write.png");
+  }
+}
+
+@media (min-width: 768px) {
+  .write {
+    display: flex;
+    justify-content: center;
+  }
+
+  .writeForm {
+    margin: auto;
+    width: 710px;
+  }
+}

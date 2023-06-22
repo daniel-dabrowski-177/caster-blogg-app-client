@@ -1,0 +1,94 @@
+.header {
+  font-family: Poppins;
+}
+
+.logoBg {
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  background-image: linear-gradient(#ffb6bd, #ffd3ca);
+  display: flex;
+  margin: 220px auto 0;
+  position: relative;
+  z-index: -1;
+}
+
+#menuToggle:checked ~ .logoBg {
+  position: absolute;
+  top: 0;
+}
+
+.desc {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffb6bd;
+  margin: 15px auto 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.createBtn {
+  display: flex;
+  margin: 50px auto 30px;
+  border: 4px solid white;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.recent {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 425px) {
+  .desc {
+    font-size: 32px;
+  }
+  .createBtn {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 60px 0 0 0;
+  }
+  .logoBg {
+    width: 350px;
+    height: 350px;
+  }
+  .desc {
+    width: 400px;
+    font-size: 32px;
+  }
+  .recent {
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    margin: 10px auto 0 0;
+  }
+  .createBtn {
+    margin: 0 0 auto;
+  }
+  .wrapper {
+    margin: 50px auto;
+    padding: 0 40px;
+    max-width: 1340px;
+    display: flex;
+  }
+}
