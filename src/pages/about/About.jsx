@@ -12,7 +12,7 @@ import iconLinkedIn from "../../images/icon-linkedin.svg";
 
 export default function Home() {
   const axiosInstance = axios.create({
-    baseURL: "https://caster-blog-app.onrender.com/api/",
+    baseURL: "caster-blog-app.onrender.com/api/",
   });
   const [posts, setPosts] = useState([]);
   const { search } = useLocation();
