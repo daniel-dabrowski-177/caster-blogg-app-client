@@ -3,13 +3,13 @@
 }
 
 .logoBg {
-  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.25));
   width: 275px;
   height: 275px;
   border-radius: 50%;
   background-image: linear-gradient(#ffb6bd, #ffd3ca);
   display: flex;
-  margin: 220px auto 0;
+  margin: 110px auto 0;
   position: relative;
   z-index: -1;
 }
@@ -29,7 +29,7 @@
   font-size: 24px;
   color: #ffb6bd;
   margin: 15px auto 0;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .createBtn {
