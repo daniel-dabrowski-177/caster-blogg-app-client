@@ -1,6 +1,5 @@
 .about {
   display: flex;
-  flex-direction: column;
   background-image: url("../../images/about-mobile.png");
   background-repeat: no-repeat;
   background-position-y: top;
@@ -14,11 +13,10 @@
 }
 
 .container {
-  margin: 120px 0 0;
+  margin: 120px 0;
   padding: 0 24px;
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 .postWrapper {
