@@ -5,6 +5,7 @@ import HomeStyles from "../home/home.module.css";
 import axios from "axios";
 import { useLocation } from "react-router-dom";
 import Topbar from "../../components/topbar/Topbar";
+import Footer from "../../components/footer/Footer";
 
 export default function Home() {
   const axiosInstance = axios.create({
@@ -31,6 +32,7 @@ export default function Home() {
       <Header />
       <div className={HomeStyles.home}></div>
       <Posts posts={posts} />
+      <Footer />
     </>
   );
 }

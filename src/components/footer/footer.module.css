@@ -1,0 +1,14 @@
+.footer {
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-top: 2px solid white;
+  max-width: 1340px;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  padding: 25px 0;
+}
