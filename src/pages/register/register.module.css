@@ -40,7 +40,6 @@
 
 .registerInput {
   background-color: rgba(0, 0, 0, 0.5);
-  background: ;
   border: none;
   color: white;
   border: 4px solid white;
@@ -49,6 +48,7 @@
   height: 30px;
   min-width: 200px;
   font-size: 18px;
+  width: 60vw;
 }
 
 .button {
@@ -73,5 +73,11 @@
 @media (min-width: 375px) {
   .register {
     background-image: url("../../images/register.png");
+  }
+}
+
+@media (min-width: 768px) {
+  .registerInput {
+    width: 460px;
   }
 }
