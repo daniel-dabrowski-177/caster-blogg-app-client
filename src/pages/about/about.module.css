@@ -13,8 +13,8 @@
 }
 
 .container {
-  margin: 120px 0 120px;
-  padding: 0 24px;
+  margin: 120px 0 0;
+  padding: 0 24px 120px;
   display: flex;
   flex-direction: column;
 }
